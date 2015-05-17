@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context" 
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+        
+    <!-- 配置Circle Bean -->
+    <bean id="circle" class="spring.core.bean_autowiring.Circle" autowire-candidate="false">
+    	<property name="autowire" value="name"></property>
+        <property name="id" value="circle"></property>  
+    </bean>
+    <bean id="circle2" class="spring.core.bean_autowiring.Circle">
+    	<property name="autowire" value="tyle"></property>
+        <property name="id" value="circle2"></property>  
+    </bean>
+    
+    <!-- shareBox 不进行任何注入 -->
+    <bean id="shareBox" class="spring.core.bean_autowiring.ShapeBox" />
+    
+    <!-- shapeBox2 用name装配 -->
+    <bean id="shapeBox2" class="spring.core.bean_autowiring.ShapeBox" autowire="byName" />
+    
+    <!-- shapeBox3 用type装配 -->
+    <bean id="shapeBox3" class="spring.core.bean_autowiring.ShapeBox" autowire="byType" />
+    
+    <!-- shapeBox4 用constructor装配 -->
+    <bean id="shapeBox4" class="spring.core.bean_autowiring.ShapeBox" autowire="constructor" />
+</beans>
