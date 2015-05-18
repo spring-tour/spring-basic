@@ -10,3 +10,5 @@
 - 4. spring Bean autowiring(xml)
 - 5. spring Bean Autowiring(Annotation) @Atutowired
 - 6. Spring Custom Events（spring 自定义事件）
+- 7. Spring @Profile
+- 8. Spring Profile XML Configuration
