@@ -12,3 +12,8 @@
 - 6. Spring Custom Events（spring 自定义事件）
 - 7. Spring @Profile
 - 8. Spring Profile XML Configuration
+
+#### spring-aop
+
+- 1. 初识spring aop
+- 2. AOP (Annotation)
