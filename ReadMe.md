@@ -9,3 +9,4 @@
 - 3. spring configration(xml, annotation, java)
 - 4. spring Bean autowiring(xml)
 - 5. spring Bean Autowiring(Annotation) @Atutowired
+- 6. Spring Custom Events（spring 自定义事件）
