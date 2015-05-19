@@ -7,3 +7,8 @@
   - Jackson json (core & mapper 1.9.7) 
   - Bruno Lowagie’s iText 5.0.6
 
+#### 访问
+
+  - localhost:8080/spring-basic/rest/view.json
+  - localhost:8080/spring-basic/rest/view.xml
+  - localhost:8080/spring-basic/rest/view.pdf
