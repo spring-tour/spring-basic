@@ -5,7 +5,11 @@
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
+      <!-- first_spring_mvc_demo 
       <param-value>classpath:spring/mvc/first_spring_mvc_demo/springmvc-config.xml</param-value>
+      -->
+      <!-- view_json_xml_pdf -->
+      <param-value>classpath:spring/mvc/view_json_xml_pdf/springmvc-config.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
