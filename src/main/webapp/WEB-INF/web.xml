@@ -8,8 +8,12 @@
       <!-- first_spring_mvc_demo 
       <param-value>classpath:spring/mvc/first_spring_mvc_demo/springmvc-config.xml</param-value>
       -->
-      <!-- view_json_xml_pdf -->
+      <!-- view_json_xml_pdf 
       <param-value>classpath:spring/mvc/view_json_xml_pdf/springmvc-config.xml</param-value>
+      -->
+      
+      <!-- view_json_xml_pdf_excel -->
+      <param-value>classpath:spring/mvc/json_xml_pdf_excel/spring-servlet.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
