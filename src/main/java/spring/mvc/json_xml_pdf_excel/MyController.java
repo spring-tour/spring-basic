@@ -2,6 +2,7 @@ package spring.mvc.json_xml_pdf_excel;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.net.URL;
 import java.util.LinkedList;
 
 import org.exolab.castor.xml.MarshalException;
@@ -22,12 +23,16 @@ public class MyController {
 	
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@RequestMapping(value = "/get", method = RequestMethod.GET)
-	public LinkedList<Article> getArcticles(Model model) {
+	public LinkedList<Article> getArcticles(Model model ) {
 		FileReader reader;
 		LinkedList<Article> articles = null;
 		
 		try {
-			reader = new FileReader("spring/mvc/json_xml_pdf_excel/articles.xml");
+			// 读取artucles.xml 
+			// 注意，对于java.io.File 来说，不要使用文件的相对位置，他们依赖于当前的工作目录，而且代码是是不可控的
+			URL url = getClass().getResource("articles.xml");
+			System.out.println(url);
+			reader = new FileReader(url.getPath());
 			//convert "unmarshal" data from XML "articles.xml" to Java object LinkedList<Article>
 			articles = (LinkedList) Unmarshaller.unmarshal(LinkedList.class, reader);
 			model.addAttribute("articles",articles);

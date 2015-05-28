@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <linked-list>
-	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="java:com.hmkcode.vo.Article">
+	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="spring.mvc.json_xml_pdf_excel.Article">
 		<categories xsi:type="java:java.lang.String">Spring</categories>
 		<tags xsi:type="java:java.lang.String">Spring</tags>
 		<tags xsi:type="java:java.lang.String">JSON</tags>
@@ -10,7 +10,7 @@
 		<url>http://test.com/spring-mvc-view-json-xml-pdf-or-excel/</url>
 		<title> Spring MVC View (JSON, XML, PDF or Excel) </title>
 	</article>
-	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="java:com.hmkcode.vo.Article">
+	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="spring.mvc.json_xml_pdf_excel.Article">
 		<categories xsi:type="java:java.lang.String">Java</categories>
 		<tags xsi:type="java:java.lang.String">Java</tags>
 		<tags xsi:type="java:java.lang.String">Castor</tags>
@@ -20,7 +20,7 @@
 		<url>http://test.com/castor-java-object-xml</url>
 		<title>Castor - Java Object to XML &amp; XML to Object Mapping</title>
 	</article>
-	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="java:com.hmkcode.vo.Article">
+	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="spring.mvc.json_xml_pdf_excel.Article">
 		<categories xsi:type="java:java.lang.String">Spring</categories>
 		<tags xsi:type="java:java.lang.String">Spring</tags>
 		<tags xsi:type="java:java.lang.String">jQuery</tags>
@@ -28,14 +28,14 @@
 		<url>http://test.com/spring-mvc-jquery-file-upload-multiple-dragdrop-progress/</url>
 		<title>Spring MVC + jQuery File Upload (multiple, drag &amp; drop, progress…)</title>
 	</article>
-	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="java:com.hmkcode.vo.Article">
+	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="spring.mvc.json_xml_pdf_excel.Article">
 		<categories xsi:type="java:java.lang.String">Spring</categories>
 		<tags xsi:type="java:java.lang.String">Spring</tags>
 		<tags xsi:type="java:java.lang.String">JSON</tags>
 		<url>http://test.com/spring-mvc-json-json-to-java/</url>
 		<title>Spring MVC JSON (JSON to Java)</title>
 	</article>
-	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="java:com.hmkcode.vo.Article">
+	<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:type="spring.mvc.json_xml_pdf_excel.Article">
 		<categories xsi:type="java:java.lang.String">Android</categories>
 		<tags xsi:type="java:java.lang.String">Android</tags>
 		<tags xsi:type="java:java.lang.String">Gradle</tags>

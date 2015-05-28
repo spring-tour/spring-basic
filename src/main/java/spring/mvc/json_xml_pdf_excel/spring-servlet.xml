@@ -8,8 +8,9 @@
     http://www.springframework.org/schema/mvc
     http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
  
-    <context:component-scan base-package="com.hmkcode.controllers" />
+    <context:component-scan base-package="spring.mvc.json_xml_pdf_excel" />
     <mvc:annotation-driven />
+    <mvc:default-servlet-handler/>
     <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">      
         <property name="order" value="1" />      
         <property name="mediaTypes">        
@@ -34,7 +35,7 @@
                 </bean>          
  
                 <!--  PDF view -->         
-                <bean class="spring.mvc.json_xml_pdf_excel.PdfView"/>             
+                <bean class="spring.mvc.json_xml_pdf_excel.PDFView"/>             
  
                 <!--  XLSX "Excel" view -->         
                 <bean class="spring.mvc.json_xml_pdf_excel.ExcelView">             
